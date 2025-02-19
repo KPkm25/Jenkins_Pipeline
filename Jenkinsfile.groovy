@@ -6,7 +6,7 @@ pipeline{
         git 'https://github.com/KPkm25/Jenkins_Pipeline.git'
       }
     }
-        stage('Build){
+    stage('Build){
       steps{
         sh 'echo "Building the application"'
       }
@@ -22,5 +22,4 @@ pipeline{
       }
     }
   }
-
 }
